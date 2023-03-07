@@ -9,13 +9,15 @@ ul {
   padding-left: 0;
   list-style: none;
 }
+#main-page {
+  height: 100vh;
+}
 #main-page,
 #location,
 #gallery,
 #address,
 #intro {
   padding-top: 4rem;
-  height: 100vh;
   margin-left: 2rem;
   margin-right: 2rem;
 }
@@ -60,6 +62,9 @@ ul {
 }
 #gallery .img-list-container .img-wrapper {
   margin-top: 2rem;
+}
+#location {
+  margin-bottom: 5rem;
 }
 #location > div {
   padding-left: 1rem;
