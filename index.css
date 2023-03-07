@@ -10,7 +10,7 @@ ul {
   list-style: none;
 }
 #main-page {
-  height: 80vh;
+  height: 100vh;
 }
 #main-page,
 #location,
@@ -28,7 +28,7 @@ ul {
 }
 #main-page img {
   margin-top: 3rem;
-  height: 30rem;
+  height: 25rem;
 }
 #main-page > h1 {
   margin-top: 2rem;
