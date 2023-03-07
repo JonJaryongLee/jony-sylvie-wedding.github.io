@@ -1,0 +1,73 @@
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+#main-page,
+#location,
+#gallery,
+#address,
+#intro {
+  padding-top: 4rem;
+  height: 100vh;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+#main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#main-page img {
+  margin-top: 3rem;
+  height: 30rem;
+}
+#main-page > h1 {
+  margin-top: 2rem;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 4rem;
+}
+#main-page > h2 {
+  margin-top: 2rem;
+}
+#intro {
+  text-align: center;
+}
+#intro > p {
+  font-size: 2.1rem;
+  font-family: "Nanum Pen Script", cursive;
+  line-height: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+#intro > .person-container {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+#gallery img {
+  height: 14.5rem;
+}
+#gallery .img-list-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#gallery .img-list-container .img-wrapper {
+  margin-top: 2rem;
+}
+#location > div {
+  padding-left: 1rem;
+  color: gray;
+}
+#location .img-wrapper {
+  margin-top: 1rem;
+}
+#location img {
+  height: 12rem;
+}

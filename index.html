@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#main-page">Wedding</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#main-page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#intro">Intro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#location">Location</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="main-page">
+      <div class="img-wrapper">
+        <img src="./img/main.jpg" alt="main" />
+      </div>
+      <h1>자룡 + 실비</h1>
+      <h2>2023.06.10 토요일 오전 11:30</h2>
+      <h3>종로 무계원</h3>
+    </div>
+    <div id="intro">
+      <p>
+        연인에서 부부라는 이름으로
+        <br />
+        평생을 함께 하고자 합니다.
+        <br />
+        귀한 걸음 하시어
+        <br />
+        두 사람의 언약을 지켜봐 주시면
+        <br />
+        더 없는 기쁨으로 간직하겠습니다.
+      </p>
+      <div class="person-container">
+        <div class="parent-name">이효균 • 김근화 의 아들</div>
+        <div class="name">이자룡</div>
+      </div>
+      <div class="person-container">
+        <div class="parent-name">따리에 장미셸 • 김행심 의 딸</div>
+        <div class="name">따리에 실비</div>
+      </div>
+    </div>
+    <div id="gallery">
+      <h1>포토 갤러리</h1>
+      <div class="img-wrapper">
+        <img src="./img/beach/beach1.jpg" alt="beach1" />
+      </div>
+      <div class="img-list-container">
+        <div class="img-wrapper">
+          <img src="./img/beach/beach2.jpg" alt="beach2" />
+        </div>
+        <div class="img-wrapper">
+          <img src="./img/beach/beach3.jpg" alt="beach3" />
+        </div>
+        <div class="img-wrapper">
+          <img src="./img/beach/beach4.jpg" alt="beach4" />
+        </div>
+        <div class="img-wrapper">
+          <img src="./img/beach/beach5.jpg" alt="beach5" />
+        </div>
+      </div>
+    </div>
+    <div id="location">
+      <h1>결혼식장</h1>
+      <div>서울 종로구 창의문로5가길 2 무계원</div>
+      <div>2023년 6월 10일 오전 11:30</div>
+      <div class="img-wrapper">
+        <img src="./img/house/house1.jpg" alt="house1" />
+      </div>
+      <div class="img-wrapper">
+        <img src="./img/house/house2.jpg" alt="house2" />
+      </div>
+      <div class="img-wrapper">
+        <img src="./img/map.jpg" alt="map" />
+      </div>
+      <div>
+        <div>* 하객분들을 위해 주차비와 택시비를 지원해드립니다.</div>
+        차량 방문: 공영주차장은 만차이니 지도에 표시된 유료주차장 이용
+      </div>
+      <div>택시 방문: 경복궁역에서 승차 (약 10분 소요)</div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.3.4/dist/axios.min.js"></script>
+  </body>
+</html>
