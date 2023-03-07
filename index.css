@@ -37,12 +37,13 @@ ul {
 }
 #main-page > h2 {
   margin-top: 2rem;
+  font-size: 1.4rem;
 }
 #intro {
   text-align: center;
 }
 #intro > p {
-  font-size: 2.1rem;
+  font-size: 2.0rem;
   font-family: "Nanum Pen Script", cursive;
   line-height: 3rem;
   margin-top: 5rem;
@@ -53,7 +54,7 @@ ul {
   font-size: 1.5rem;
 }
 #gallery img {
-  height: 14.5rem;
+  height: 12rem;
 }
 #gallery .img-list-container {
   display: flex;
