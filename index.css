@@ -56,13 +56,13 @@ ul {
 #gallery img {
   height: 12rem;
 }
+#gallery .img-wrapper {
+  margin-bottom: 2rem;
+}
 #gallery .img-list-container {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
   flex-wrap: wrap;
-}
-#gallery .img-list-container .img-wrapper {
-  margin-top: 2rem;
 }
 #location {
   margin-bottom: 5rem;
