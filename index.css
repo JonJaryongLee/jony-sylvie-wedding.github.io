@@ -14,6 +14,7 @@ ul {
 }
 #main-page,
 #location,
+#location2,
 #gallery,
 #address,
 #intro {
@@ -64,16 +65,19 @@ ul {
   justify-content:space-around;
   flex-wrap: wrap;
 }
-#location {
-  margin-bottom: 5rem;
-}
-#location > div {
+#location > div,
+#location2 > div {
   padding-left: 1rem;
   color: gray;
 }
-#location .img-wrapper {
+#location .img-wrapper,
+#location2 .img-wrapper {
   margin-top: 1rem;
 }
-#location img {
+#location img,
+#location2 img {
   height: 12rem;
+}
+#location2 {
+  margin-bottom: 5rem;
 }
